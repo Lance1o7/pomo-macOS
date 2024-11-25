@@ -12,7 +12,7 @@ function pomo() {
     args="$*"
 
     min=${arg1:?Example: pomo 15 Take a break}
-    sec=$((min * 1))
+    sec=$((min * 60))
     msg="${args:?Example: pomo 15 Take a break}"
 
     while true; do
